@@ -1,0 +1,849 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+#first-part {
+    display: flex;
+    flex-direction: row;
+    width: 1228px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999999;
+    background-color: #ffffff;
+}
+.church-logo {
+    width: 80px;
+    height: 80px;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+}
+.nav-list {
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+}
+.nav-list-link {
+    display: inline;
+    margin: 10px;
+}
+.nav-link {
+    text-decoration: none;
+    color: rgb(95, 92, 92);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+.nav-link:hover {
+    color: forestgreen;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.nav-link:active {
+    color: forestgreen;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.nav-link-contact{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+}
+.nav-list-link-contact {
+    display: inline;
+    margin: 10px;
+    border: 2px solid #000000;
+    width: 149px;
+    height: 50px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 2px;
+}
+.nav-list-link-contact:hover {
+    background-color: #32AA27;
+    border: none;
+    cursor: pointer;
+    .nav-link-contact {
+        color: white;
+    }
+}
+main {
+    margin-top: 120px;
+}
+#second-part {
+    background-image: url(images/cvbc\ arial.jpg);
+    width: 100%;
+    height: 465px;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.worship-god {
+    font-family: "Inter", sans-serif;
+    font-size: 62px;
+    line-height: 77px;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+.love-christ {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.view-services {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    background-color: #32AA27;
+    border-radius: 2px;
+    width: 130px;
+    margin-left: 100px;
+}
+.view-services:hover {
+    background-color: darkgreen;
+}
+#third-part {
+    width: 100%;
+    height: 750px;
+    background-color: white;
+}
+.third-part-sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.third-part-text {
+    margin-top: 70px;
+    margin-right: 50px;
+    margin-left: 120px;
+}
+.third-part-image {
+    background-image: url(images/Figure.png);
+    background-size: cover;
+    width: 400px;
+    height: 550px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.faith-community {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: forestgreen;
+}
+.worship-fellowship {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.founded-lagos {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(95, 92, 92);
+}
+.third-part-link {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: rgb(95, 92, 92);  
+}
+.third-part-link:hover {
+    text-decoration: none;
+}
+#fourth-part {
+    background-color: rgb(241, 236, 236);
+    width: 100%;
+    height: 700px;
+}
+.fourth-part-sub {
+    padding-top: 100px;
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+}
+.empowered-worship {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: forestgreen;
+    line-height: 18px;
+}
+.services-fellowship {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+}
+.fourth-part-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.fourth-part-first-list {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    height: 360px;
+    width: 320px;
+    box-shadow: 0 0 13px rgb(211, 208, 208);
+    background-color: #ffffff;
+}
+.fourth-part-first-list:hover {
+    transform: scale(1.05);
+    .bible-study {
+        color: rgb(50, 170, 39);
+    }
+    svg {
+        color: #32AA27;
+        transform: translate(5px);
+    }
+}
+.fourth-part-second-list {
+    margin-right: 20px;
+    height: 360px;
+    width: 320px;
+    box-shadow: 0 0 5px rgb(211, 208, 208);
+    background-color: #ffffff;
+}
+.fourth-part-second-list:hover{
+    transform: scale(1.05);
+    .youth-programs {
+        color: #32AA27;
+    }
+    svg {
+        color: #32AA27;
+        transform: translate(5px);
+    }
+}
+.fourth-part-third-list {
+    height: 360px;
+    width: 320px;
+    box-shadow: 0 0 10px rgb(211, 208, 208);
+    background-color: #ffffff;
+}
+.fourth-part-third-list:hover {
+    transform: scale(1.05);
+    .student-programs {
+        color: #32AA27;
+    }
+    svg {
+        color: #32AA27;
+        transform: translate(5px);
+    }
+}
+.fourth-part-first-list-link {
+    text-decoration: none;
+}
+.fourth-part-second-list-link {
+    text-decoration: none;
+}
+.fourth-part-third-list-link {
+    text-decoration: none;
+}
+.bible-study {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    padding-left: 20px;
+    line-height: 27px;
+    padding-top: 0;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.deepen-understanding {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(95, 92, 92);
+    padding-left: 20px;
+    line-height: 27px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.youth-programs {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    padding-left: 20px;
+    line-height: 27px;
+    padding-top: 0;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.empower-younger {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(95, 92, 92);
+    padding-left: 20px;
+    line-height: 27px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.student-programs {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    padding-left: 20px;
+    line-height: 27px;
+    padding-top: 0;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.empower-students {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(95, 92, 92);
+    padding-left: 20px;
+    line-height: 27px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.fourth-part-image-one {
+    height: 200px;
+    width: 320px;
+}
+.fourth-part-image-two {
+    height: 200px;
+    width: 320px;
+}
+.fourth-part-image-three {
+    height: 200px;
+    width: 320px;
+}
+.vector {
+    display: flex;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+svg {
+    height: 28px;
+    padding-top: 18px;
+    color: #000000;
+}
+#fifth-part {
+    background-color: #ffffff;
+    width: 100%;
+    height: 1000px;
+}
+.fifth-part-sub {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.meet-leaders {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: forestgreen;
+    line-height: 18px;
+}
+.spiritual-leaders {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.fifth-part-list {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+.fifth-part-list-one {
+    display: flex;
+    padding-bottom: 10px;
+}
+.fifth-part-list-two {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+.fifth-part-list-one-img {
+    background-image: url(images/past.png);
+    height: 320px;
+    width: 320px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 300px;
+}
+.fifth-part-list-one-img:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+.fifth-part-list-two-img {
+    background-image: url(images/past.png);
+    height: 320px;
+    width: 320px;
+    background-size: cover;
+    background-position: center;
+}
+.fifth-part-list-two-img:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+.fifth-part-list-two-text {
+    padding-right: 100px;
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fifth-part-list-one-text {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.israel-abolade {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.lead-pastor {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    color: rgb(95, 92, 92);
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.adewale-omosogbe {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.stu-chil-pastor {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    color: rgb(95, 92, 92);
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.fifth-part-list-link {
+    border: 2px solid #020402;
+    border-radius: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100px;
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.fifth-part-list-link:hover {
+    background-color: #32AA27;
+    border: none;
+    cursor: pointer;
+    .read-more {
+        color: white;
+    }
+}
+#sixth-part {
+    width: 100%;
+    height: 2450px;
+    background-color: rgb(241, 236, 236);
+}
+.sixth-part-sub {
+    display: flex;
+    flex-direction: column;
+    padding-top: 130px;
+}
+.join-community {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: forestgreen;
+    line-height: 18px;
+    padding-left: 260px;
+}
+.faith-fellowship {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 260px;
+    border-bottom: 1px solid #898585;
+    padding-bottom: 80px;
+    width: 745px;
+}
+.sixth-part-list {
+    display: flex;
+    flex-direction: column;
+}
+.sixth-part-list-one {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.sixth-part-list-two {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.sixth-part-list-three {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.sixth-part-list-one-img {
+    background-image: url(images/comimage1.jpg);
+    height: 498px;
+    width: 745px;
+    background-size: contain;
+}
+.sixth-part-list-one-img:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+.sixth-part-list-two-img {
+    background-image: url(images/comimage12.jpg);
+    height: 500px;
+    width: 745px;
+}
+.sixth-part-list-two-img:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+.sixth-part-list-three-img {
+    background-image: url(images/comimage123.jpg);
+    height: 500px;
+    width: 745px;
+}
+.sixth-part-list-three-img:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+.sunday-school {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.sunday-school-sessions {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #747171;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #747171;
+    padding-bottom: 50px;
+    width: 745px;
+}
+.sunday-service {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.uplifting-sunday-service {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #747171;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #747171;
+    padding-bottom: 50px;
+    width: 745px;
+}
+.mid-week-worship {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.peace-inspiration {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #747171;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #747171;
+    padding-bottom: 50px;
+    width: 745px;
+}
+#seventh-part {
+    width: 100%;
+    height: 700px;
+    background-color: white;
+}
+.seventh-part-sub {
+    display: flex;
+    flex-direction: column;
+    padding-left: 130px;
+    padding-top: 100px;
+}
+.celebrating-faith {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: forestgreen;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+.moments-worship {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.seventh-part-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.seventh-part-first-img {
+    background-image: url(images/cvbc\ worship.jpg);
+    height: 320px;
+    width: 320px;
+    background-size: cover;
+    background-position: right;
+    margin-right: 20px;
+}
+.seventh-part-first-img:hover {
+    cursor: pointer;
+}
+.seventh-part-second-img {
+    background-image: url(images/cvbc\ mon.jpg);
+    height: 320px;
+    width: 320px;
+    background-size: cover;
+    margin-right: 20px;
+    background-position: center;
+}
+.seventh-part-second-img:hover {
+    cursor: pointer;
+}
+.seventh-part-third-img {
+    background-image: url(images/cvbc\ pep.jpg);
+    height: 320px;
+    width: 320px;
+    background-size: cover;
+    background-position: center;
+}
+.seventh-part-third-img:hover {
+    cursor: pointer;
+}
+#eigth-part {
+    width: 100%;
+    height: 1210px;
+    background-color: rgb(241, 236, 236);
+}
+.eigth-part-sub {
+    display: flex;
+    flex-direction: column;
+    padding-left: 130px;
+    padding-top: 90px;
+}
+.members-say {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: forestgreen;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+.discover-impact {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.eigth-part-list {
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+}
+.eigth-part-list-one {
+    background-color: white;
+    box-shadow: 0 0 20px rgb(211, 208, 208);
+    width: 300px;
+    height: 765px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.eigth-part-list-two {
+    background-color: white;
+    box-shadow: 0 0 20px rgb(211, 208, 208);
+    width: 300px;
+    height: 765px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.eigth-part-list-three {
+    background-color: white;
+    box-shadow: 0 0 20px rgb(211, 208, 208);
+    width: 300px;
+    height: 765px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.eigth-part-list-one-img {
+    background-image: url(images/peep3.jpg);
+    width: 95px;
+    height: 95px;
+    border-radius: 50px;
+}
+.eigth-part-list-two-img {
+    background-image: url(images/peep2.jpg);
+    width: 95px;
+    height: 95px;
+    border-radius: 50px;
+}
+.eigth-part-list-three-img {
+    background-image: url(images/peep1.jpg);
+    width: 95px;
+    height: 95px;
+    border-radius: 50px;
+}
+.brandon-vega {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+}
+.community-volunteer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #747171;
+    padding-top: 0;
+    margin-top: 0;
+}
+.brandon-testimony {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #747171;
+}
+.chris-wei {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+}
+.local-youth {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #747171;
+    padding-top: 0;
+    margin-top: 0;
+}
+.chris-testimony {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #747171;
+}
+.karen-weiss {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+}
+.school-student {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #747171;
+    padding-top: 0;
+    margin-top: 0;
+}
+.karen-testimony {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #747171;
+}
