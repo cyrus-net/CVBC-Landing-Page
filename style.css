@@ -847,3 +847,124 @@ svg {
     line-height: 27px;
     color: #747171;
 }
+#ninth-part {
+    width: 100%;
+    height: 360px;
+    background-color: #32AA27;
+}
+.ninth-part-sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.ninth-part-list-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 250px;
+    text-decoration: none;
+}
+.ninth-part-list-two-sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ninth-part-list-two {
+    padding-right: 100px;
+}
+.ninth-part-list-three-sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.church-name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.location {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    padding-right: 5px;
+}
+.location-img {
+    width: 40px;
+    height: 40px;
+}
+.map-address {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+}
+.map-address:hover{
+    text-decoration: none;
+}
+.reach-out {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    padding-right: 5px;
+}
+.email-img {
+    width: 40px;
+    height: 40px;
+}
+.mail-address {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+}
+.mail-address:hover{
+    text-decoration: none;
+}
+.ninth-part-list-four {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-right: 175px;
+}
+.join-us {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+}
+.facebook-img {
+    width: 10px;
+    height: 10px;
+    padding-right: 40px;
+}
+.facebook-img:hover {
+    transform: scale(1.1);
+}
+.youtube-img {
+    width: 5px;
+    height: 5px;
+    padding-right: 45px;
+}
+.youtube-img:hover {
+    transform: scale(1.1);
+}
+.instagram-img {
+    width: 5px;
+    height: 5px;
+}
+.instagram-img:hover {
+    transform: scale(1.1);
+}
