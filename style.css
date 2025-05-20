@@ -968,3 +968,118 @@ svg {
 .instagram-img:hover {
     transform: scale(1.1);
 }
+#tenth-part {
+    width: 100%;
+    height: 920px;
+    background-color: #ffffff;
+}
+.tenth-part-sub {
+    width: 800px;
+    height: 812px;
+    background-color: rgb(241, 236, 236);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.get-in {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: forestgreen;
+    line-height: 18px;
+    letter-spacing: 1px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 80px;
+}
+.connect-with {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    padding-top: 0;
+    margin-top: 0;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+.connect-form {
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.checkbox-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.namea, .emaila, .phonea, .messagea {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 20px;
+}
+#name, #email-address, #phone-number {
+    height: 46px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #885d54;
+    background-color: rgb(241, 236, 236);
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1px;
+    margin-bottom: 20px;
+}
+#name::placeholder, #email-address::placeholder, #phone-number::placeholder {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: grey;
+    line-height: 1px;
+}
+#message {
+    height: 152px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #885d54;
+    background-color: rgb(241, 236, 236);
+}
+.submit-btn {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #32AA27;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+}
+.submit-btn:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+.permission {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 20px;
+}
+#checkbox {
+    width: 18px;
+    height: 18px;
+}
