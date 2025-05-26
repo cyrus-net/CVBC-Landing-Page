@@ -1,1 +1,1 @@
-A bisic website for a church
+A basic website for a church
