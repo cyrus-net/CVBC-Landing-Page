@@ -1,0 +1,364 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+#first-part {
+    display: flex;
+    flex-direction: row;
+    width: 1228px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999999;
+    background-color: #ffffff;
+}
+.church-logo {
+    width: 80px;
+    height: 80px;
+}
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+}
+.nav-list {
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+}
+.nav-list-link {
+    display: inline;
+    margin: 10px;
+}
+.nav-link {
+    text-decoration: none;
+    color: rgb(95, 92, 92);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+.nav-link:hover {
+    color: forestgreen;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.nav-link:active {
+    color: forestgreen;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+.nav-link-contact{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+}
+.nav-list-link-contact {
+    display: inline;
+    margin: 10px;
+    border: 2px solid #000000;
+    width: 149px;
+    height: 50px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 2px;
+}
+.nav-list-link-contact:hover {
+    background-color: #32AA27;
+    border: none;
+    cursor: pointer;
+    .nav-link-contact {
+        color: white;
+    }
+}
+main {
+    margin-top: 120px;
+    margin-left: 240px;
+    display: flex;
+    flex-direction: column;
+}
+#second-part {
+    width: 100%;
+    height: 3210px;
+    padding-top: 90px;
+}
+.your-faith {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    color: rgb(95, 92, 92);
+    margin-bottom: 0;
+}
+.by-church {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    color: rgb(95, 92, 92);
+    margin-top: 0;
+}
+.blog2-image {
+    width: 750px;
+    height: 530px;
+}
+.searching-place {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgb(95, 92, 92);
+}
+.power-community {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgb(95, 92, 92);
+}
+.spiritual-home {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    color: rgb(95, 92, 92);
+}
+.discover-place {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgb(95, 92, 92);
+}
+.step-into {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgb(95, 92, 92);
+}
+.faith-through {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    color: rgb(95, 92, 92);
+}
+.worship-powerful {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgb(95, 92, 92);
+}
+.addition-sunday {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgb(95, 92, 92);
+}
+.connect-vibrant {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    color: rgb(95, 92, 92);
+}
+.fellowship-essential {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgb(95, 92, 92);
+}
+.church-events {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgb(95, 92, 92);
+}
+#third-part {
+    width: 100%;
+    height: 320px;
+    background-color: #32AA27;
+}
+.third-part-sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+.third-part-sub-one {
+    margin-right: 200px;
+}
+.get-touch {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+.from-you {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #ffffff;
+}
+.in-touch {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.third-part-sub-two {
+    border: 2px solid #ffffff;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    border-radius: 2px;
+}
+.third-part-sub-two:hover {
+    background-color: #000000;
+    cursor: pointer;
+    border: 0;
+}
+#fourth-part {
+    width: 100%;
+    height: 360px;
+    background-color: #32AA27;
+}
+.fourth-part-sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.fourth-part-list-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 250px;
+    text-decoration: none;
+}
+.fourth-part-list-two-sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fourth-part-list-two {
+    padding-right: 100px;
+}
+.fourth-part-list-three-sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.church-name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.location {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    padding-right: 5px;
+}
+.location-img {
+    width: 40px;
+    height: 40px;
+}
+.map-address {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+}
+.map-address:hover{
+    text-decoration: none;
+}
+.reach-out {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    padding-right: 5px;
+}
+.email-img {
+    width: 40px;
+    height: 40px;
+}
+.mail-address {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+}
+.mail-address:hover{
+    text-decoration: none;
+}
+.fourth-part-list-four {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-right: 175px;
+}
+.join-us {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+}
+.facebook-img {
+    width: 10px;
+    height: 10px;
+    padding-right: 40px;
+}
+.facebook-img:hover {
+    transform: scale(1.1);
+}
+.youtube-img {
+    width: 5px;
+    height: 5px;
+    padding-right: 45px;
+}
+.youtube-img:hover {
+    transform: scale(1.1);
+}
+.instagram-img {
+    width: 5px;
+    height: 5px;
+}
+.instagram-img:hover {
+    transform: scale(1.1);
+}
