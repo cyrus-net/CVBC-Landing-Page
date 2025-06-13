@@ -110,3 +110,206 @@ body {
     margin-top: 0;
     margin-left: 130px;
 }
+#third-part {
+    width: 100%;
+    height: 732px;
+    background-color: #ffffff;
+}
+.third-part-sub {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.inspiring-faith {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: forestgreen;
+    padding-left: 140px;
+}
+.discover-stories {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 0;
+    padding-left: 140px;
+}
+.third-part-sub-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.blog-image {
+    width: 335px;
+    height: 335px;
+}
+.faith-church {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.upload-date {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    color: rgb(95, 92, 92);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.faith-church-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: rgb(95, 92, 92);
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.third-part-sub-content-two {
+    margin-left: 30px;
+}
+.third-part-sub-content-link-one:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+.third-part-sub-content-link-two {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    color: rgb(95, 92, 92);
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+#fourth-part {
+    width: 100%;
+    height: 360px;
+    background-color: #32AA27;
+}
+.fourth-part-sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.fourth-part-list-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 250px;
+    text-decoration: none;
+}
+.fourth-part-list-two-sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fourth-part-list-two {
+    padding-right: 100px;
+}
+.fourth-part-list-three-sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.church-name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.location {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    padding-right: 5px;
+}
+.location-img {
+    width: 40px;
+    height: 40px;
+}
+.map-address {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+}
+.map-address:hover{
+    text-decoration: none;
+}
+.reach-out {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+    padding-right: 5px;
+}
+.email-img {
+    width: 40px;
+    height: 40px;
+}
+.mail-address {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+}
+.mail-address:hover{
+    text-decoration: none;
+}
+.fourth-part-list-four {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-right: 175px;
+}
+.join-us {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ffffff;
+}
+.facebook-img {
+    width: 10px;
+    height: 10px;
+    padding-right: 40px;
+}
+.facebook-img:hover {
+    transform: scale(1.1);
+}
+.youtube-img {
+    width: 5px;
+    height: 5px;
+    padding-right: 45px;
+}
+.youtube-img:hover {
+    transform: scale(1.1);
+}
+.instagram-img {
+    width: 5px;
+    height: 5px;
+}
+.instagram-img:hover {
+    transform: scale(1.1);
+}
